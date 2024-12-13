@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.19" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>una的博客</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/yechen.github.io/assets/style-CxVBbs0X.css" as="style"><link rel="stylesheet" href="/yechen.github.io/assets/style-CxVBbs0X.css">
+    <link rel="modulepreload" href="/yechen.github.io/assets/app-r6unyn3A.js"><link rel="modulepreload" href="/yechen.github.io/assets/404.html-Ds_rfPWp.js">
+    <link rel="prefetch" href="/yechen.github.io/assets/index.html-Dtk-CaXf.js" as="script"><link rel="prefetch" href="/yechen.github.io/assets/Divide_Conquer.html-D4M-bLle.js" as="script"><link rel="prefetch" href="/yechen.github.io/assets/setupDevtools-7MC2TMWH-C444fVjf.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ce3a3112><main class="page" data-v-ce3a3112><div class="theme-default-content" vp-content data-v-ce3a3112><h1 data-v-ce3a3112>404</h1><blockquote data-v-ce3a3112>How did we get here?</blockquote><a class="route-link" href="/yechen.github.io/" data-v-ce3a3112>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/yechen.github.io/assets/app-r6unyn3A.js" defer></script>
+  </body>
+</html>
